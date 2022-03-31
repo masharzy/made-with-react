@@ -1,5 +1,5 @@
 import React from "react";
-import logo from "../../logo.svg";
+import logo from "../../logo.png";
 import hero from "../../img/hero.svg";
 import "./Home.css";
 
@@ -11,20 +11,18 @@ const Home = () => {
         style={{ height: "100vh", paddingTop: "50px" }}
       >
         <div className="row align-items-center">
-          <div className="col-lg-4 col-md-8 col-12 text-left ml-auto mr-auto position-relative">
+          <div className="col-lg-4 col-md-12 col-12 text-lg-start text-center ml-auto mr-auto position-relative">
             <img
-              height={100}
-              width={100}
               src={logo}
               alt=""
               style={{
-                width: "200px",
-                marginLeft: "-50px",
+                width: "80px",
                 marginTop: "100px",
+                marginBottom: "10px"
               }}
             />
             <h1
-              className="text-title"
+              className="text-title" 
               style={{ fontSize: "50px", color: "#223464" }}
             >
               Made with <br /> React

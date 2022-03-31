@@ -21,9 +21,9 @@ const MaterialTailwind = () => {
               Design guidelines. Coming soon components for <br /> VueJS, Angular and
               many more.
             </p>
-            <a style={{fontWeight:"600",padding:"13px 30px", backgroundColor:"#009688", color:"#fff"}} className="btn me-2" href="https://material-tailwind.com/#how-to-use">HOW TO USE</a>
-            <a style={{fontWeight:"600",padding:"13px 30px", backgroundColor:"#03A9F4", color:"#fff"}} className="btn me-2" href="https://material-tailwind.com/documentation/quick-start">GET STARTED</a>
-            <a style={{fontWeight:"600",padding:"13px 30px", backgroundColor:"#334155", color:"#fff"}} className="btn" href="https://github.com/creativetimofficial/material-tailwind">GITHUB STAR</a>
+            <a style={{fontWeight:"600",padding:"13px 30px", backgroundColor:"#009688", color:"#fff"}} className="btn me-2 mt-2" href="https://material-tailwind.com/#how-to-use">HOW TO USE</a>
+            <a style={{fontWeight:"600",padding:"13px 30px", backgroundColor:"#03A9F4", color:"#fff"}} className="btn me-2 mt-2" href="https://material-tailwind.com/documentation/quick-start">GET STARTED</a>
+            <a style={{fontWeight:"600",padding:"13px 30px", backgroundColor:"#334155", color:"#fff"}} className="btn mt-2" href="https://github.com/creativetimofficial/material-tailwind">GITHUB STAR</a>
           </div>
         </div>
       </div>

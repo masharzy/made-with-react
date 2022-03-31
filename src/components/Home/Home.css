@@ -1,3 +1,14 @@
 .home-body{
     background: linear-gradient(60deg, #F5F5FC 80%, #FCFCFF 50%);
 }
+@media screen and (max-width: 416px) {
+    img{
+        width: 100px !important;
+    }
+    h1{
+        font-size: 50px !important;
+    }
+    p{
+        font-size: 1.1rem !important;
+    }
+}

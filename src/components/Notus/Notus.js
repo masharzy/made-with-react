@@ -1,5 +1,6 @@
 import React from "react";
 import hero2 from "../../img/hero2.png";
+import './Notus.css'
 
 const Notus = () => {
   return (
@@ -13,7 +14,7 @@ const Notus = () => {
             >
               Notus React - A beautiful extension for Tailwind CSS.
             </h1>
-            <p className="text-description mt-4">
+            <p className="text-description mt-4" style={{color:"rgba(69,90,100)", fontSize:"1.125rem"}}>
               Notus React is Free and Open Source. It does not change any of the
               CSS from Tailwind CSS. It features multiple HTML elements and it
               comes with dynamic components for ReactJS, Vue and Angular.

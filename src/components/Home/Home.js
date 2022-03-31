@@ -1,39 +1,35 @@
 import React from "react";
 import logo from "../../logo.png";
-import hero from "../../img/hero.svg";
 import "./Home.css";
 
 const Home = () => {
   return (
     <div className="home-body">
-      <div
-        className="container"
-        style={{ height: "100vh", paddingTop: "50px" }}
-      >
-        <div className="row align-items-center">
-          <div className="col-lg-4 col-md-12 col-12 text-lg-start text-center ml-auto mr-auto position-relative">
+      <div className="container" style={{ height: "100vh" }}>
+        <div className="row align-items-center" style={{ height: "100vh" }}>
+          <div className="col-12 text-center">
             <img
               src={logo}
               alt=""
               style={{
-                width: "80px",
+                width: "200px",
                 marginTop: "100px",
-                marginBottom: "10px"
+                marginBottom: "10px",
               }}
             />
             <h1
-              className="text-title" 
-              style={{ fontSize: "50px", color: "#223464" }}
+              className="text-title"
+              style={{ fontSize: "80px", color: "#223464" }}
             >
               Made with <br /> React
             </h1>
-            <p className="text-description mt-4">
+            <p
+              className="text-description mt-4"
+              style={{ color: "rgba(69,90,100)", fontSize: "1.25rem" }}
+            >
               A collection of websites and applications using the React or React
               Native JavaScript library.
             </p>
-          </div>
-          <div className="col-lg-8 d-lg-block d-none">
-            <img className="w-100 h-100" src={hero} alt="" />
           </div>
         </div>
       </div>
